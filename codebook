@@ -1,0 +1,112 @@
+Dataset description
+The dataset contains data from a group of people using wereable with sensor providing data in 561 characteristics
+
+The wereable device contains accelerometer and giroscope generating data in the following characteristics: (X, Y and Z axes)
+tBodyAcc-XYZ
+tGravityAcc-XYZ
+tBodyAccJerk-XYZ
+tBodyGyro-XYZ
+tBodyGyroJerk-XYZ
+tBodyAccMag
+tGravityAccMag
+tBodyAccJerkMag
+tBodyGyroMag
+tBodyGyroJerkMag
+fBodyAcc-XYZ
+fBodyAccJerk-XYZ
+fBodyGyro-XYZ
+fBodyAccMag
+fBodyAccJerkMag
+fBodyGyroMag
+fBodyGyroJerkMag
+
+Data is divided in two groups:
+Training data
+test data
+
+File features contains name of the different characteristics in total 561
+ActivityLabels contains six different activities:
+  WALKING
+  WALKING_UPSTAIRS
+  WALKING_DOWNSTAIRS
+  SITTING
+  STANDING
+  LAYING
+
+Subject_train contains subject id
+x_train contains data generated from subject activity
+y_train contains activity id
+
+Subject test contains subject id
+x_Test contains data generates from subject activity
+y_test contains activity id
+
+Data in x_test and x_train files are structured with the following variables:
+time.body.accelerometer.mean.x	numeric
+time.body.accelerometer.mean.y	numeric
+time.body.accelerometer.mean.z	numeric
+time.body.accelerometer.std.x	numeric
+time.body.accelerometer.std.y	numeric
+time.body.accelerometer.std.z	numeric
+time.gravity.accelerometer.mean.x	numeric
+time.gravity.accelerometer.mean.y	numeric
+time.gravity.accelerometer.mean.z	numeric
+time.gravity.accelerometer.std.x	numeric
+time.gravity.accelerometer.std.y	numeric
+time.gravity.accelerometer.std.z	numeric
+time.body.accelerometer.jerk.mean.x	numeric
+time.body.accelerometer.jerk.mean.y	numeric
+time.body.accelerometer.jerk.mean.z	numeric
+time.body.accelerometer.jerk.std.x	numeric
+time.body.accelerometer.jerk.std.y	numeric
+time.body.accelerometer.jerk.std.z	numeric
+time.body.gyroscope.mean.x	numeric
+time.body.gyroscope.mean.y	numeric
+time.body.gyroscope.mean.z	numeric
+time.body.gyroscope.std.x	numeric
+time.body.gyroscope.std.y	numeric
+time.body.gyroscope.std.z	numeric
+time.body.gyroscope.jerk.mean.x	numeric
+time.body.gyroscope.jerk.mean.y	numeric
+time.body.gyroscope.jerk.mean.z	numeric
+time.body.gyroscope.jerk.std.x	numeric
+time.body.gyroscope.jerk.std.y	numeric
+time.body.gyroscope.jerk.std.z	numeric
+time.body.accelerometer.magnitude.mean	numeric
+time.body.accelerometer.magnitude.std	numeric
+time.gravity.accelerometer.magnitude.mean	numeric
+time.gravity.accelerometer.magnitude.std	numeric
+time.body.accelerometer.jerk.magnitude.mean	numeric
+time.body.accelerometer.jerk.magnitude.std	numeric
+time.body.gyroscope.magnitude.mean	numeric
+time.body.gyroscope.magnitude.std	numeric
+time.body.gyroscope.jerk.magnitude.mean	numeric
+time.body.gyroscope.jerk.magnitude.std	numeric
+fequency.body.accelerometer.mean.x	numeric
+fequency.body.accelerometer.mean.y	numeric
+fequency.body.accelerometer.mean.z	numeric
+fequency.body.accelerometer.std.x	numeric
+fequency.body.accelerometer.std.y	numeric
+fequency.body.accelerometer.std.z	numeric
+fequency.body.accelerometer.jerk.mean.x	numeric
+fequency.body.accelerometer.jerk.mean.y	numeric
+fequency.body.accelerometer.jerk.mean.z	numeric
+fequency.body.accelerometer.jerk.std.x	numeric
+fequency.body.accelerometer.jerk.std.y	numeric
+fequency.body.accelerometer.jerk.std.z	numeric
+fequency.body.gyroscope.mean.x	numeric
+fequency.body.gyroscope.mean.y	numeric
+fequency.body.gyroscope.mean.z	numeric
+fequency.body.gyroscope.std.x	numeric
+fequency.body.gyroscope.std.y	numeric
+fequency.body.gyroscope.std.z	numeric
+fequency.body.accelerometer.magnitude.mean	numeric
+fequency.body.accelerometer.magnitude.std	numeric
+fequency.body.body.accelerometer.jerk.magnitude.mean	numeric
+fequency.body.body.accelerometer.jerk.magnitude.std	numeric
+fequency.body.body.gyroscope.magnitude.mean	numeric
+fequency.body.body.gyroscope.magnitude.std	numeric
+fequency.body.body.gyroscope.jerk.magnitude.mean	numeric
+fequency.body.body.gyroscope.jerk.magnitude.std	numeric
+
+
