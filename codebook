@@ -109,4 +109,30 @@ fequency.body.body.gyroscope.magnitude.std	numeric
 fequency.body.body.gyroscope.jerk.magnitude.mean	numeric
 fequency.body.body.gyroscope.jerk.magnitude.std	numeric
 
+TRANSFORMATION
+Transformation of the dataset. The proccess is as follow:
+1. Merges the training and the test sets to create one data set.
+   Merging training data in trainingData 
+   Merging test data in testData
+   Merging training and test data in totalData
+2. Extracts only the measurements on the mean and standard deviation for each measurement in meanstdMeasurements, it includes subjectId and ActivityId
+3. Use descriptive activity names to name the activities in the data set
+   "activityId","activityType", "subjectId", "activityId", "subjectId", "activityId"
+4. Appropriately labels the data set with descriptive variable names.
+   Remove parentheses and fix sintaxis
+   Replacing for descriptive names
+      "Acc" for "Acceleration"
+      "BodyBody", "Body", 
+      "^t", for "Time"
+      "^f", for "Frequency"
+      "mean", for "Mean", 
+      "std", for "Std"
+      "Freq", for "Frequency"
+      "Mag", for "Magnitude"
+   
+5. From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
+
+
+
+
 
