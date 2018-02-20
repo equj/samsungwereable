@@ -1,5 +1,6 @@
 # samsungwereable
-testing data from wereables. Merges the training and the test sets to create one data set, then extracts 
+Testing data from wereables. 
+Merges the training and the test sets to create one data set, then extracts 
 only the measurements on the mean and standard deviation for each measurement. Uses descriptive activity 
 names to name the activities in the data set. Also labels the data set with descriptive variable names, 
 removing parentheses, fixin sintaxis and changing names for descriptive names. Finallly creates file with 
@@ -13,7 +14,7 @@ Extracts only the columns refering to mean, std, subject identification and acti
 Labels columns with a descriptive name and tidy data by subjectId and activityType ontaining mean
 Finally writes tidy data to a file
 
-Variables used are:
+Used variables are:
 
 features                Used to store feature names from the file features.txt
 activityLabels          Used to store activity type from the file activity_labels.txt
